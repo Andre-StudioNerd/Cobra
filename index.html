@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+  <meta name="description" content="Jogo da cobra feito em javascript" />
+  <meta name="author" content="Andre Luis Fernandes"/>
+  <meta name="reply-to" content="deco.luisfernandes@gmail.com">
+  <meta name="generator" content="Visual Studio Code">
+  <meta name="language" content="pt-br">
+  <meta name="robots" content="index,nofollow" />
+  <meta name="keywords" content="jogo, game, snake,cobra"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <title>Snake Game</title>
+    <!-- Favicons -->
+    <link href="assets/favicon.png" rel="icon">
+    <link href="assets/favicon.png" rel="apple-touch-icon">
+     <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" >
+
+
+</head>
+
+<body>
+
+    <header class="header_game" class="container-fluid">
+        <img src="assets/cobra.png" class="img-fluid mx-auto d-block" alt="Imagem responsiva">
+    </header>
+
+
+
+
+
+    
+    <section class="container">
+       
+        <div>
+            
+
+
+
+            <div id="menu_game">
+      
+            <div class="menu_score" >
+            <div class="score">Pontuação: <span class="score--value">00</span></div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- Menu topo -->
+   
+
+    <main id="main">
+
+    <!-- Tela Game -->  
+    <section id="game_screen" class="container-fluid">
+    <div class="menu-screen">
+        <span class="game-over">Game Over</span>
+        <span class="final-score">Pontuação <span>00</span></span>
+
+        <button class="btn-play">
+            <span class="material-symbols-outlined">
+                play_circle
+            </span>
+            
+            Jogar Novamente
+        </button>
+    </div>
+    </section>        
+     
+    <!-- Game -->
+    <section id="game" class="container-fluid">
+    <canvas width="500" height="500" class="container-fluid"></canvas>
+    <!-- JS Arquivo-->
+    <script src="./js/script.js"></script>
+    </section>
+
+    </main>
+
+    <footer id="footer" class="container-fluid">
+          
+
+        
+            <p class="row">Desenvolvido por André Luís Fernades - 2023</p>
+       
+       
+        
+    </footer>
+
+</body>
+</html>
